@@ -1,0 +1,31 @@
+<html>
+  <head>
+  <link rel="icon" type="image/png" href="/static/favicon.ico"> 
+  <link rel="stylesheet" type="text/css" href="static/site.css" />
+  <!--
+	<link rel="stylesheet" href="/static/blue/style.css" type="text/css"/>
+	<link rel="stylesheet" href="/static/jquery.tablesorter.pager.css" type="text/css"/>
+	-->
+  
+  <title>Ipaloam Unity3D DB Deploy</title>
+
+  </head>
+  <body>  
+  <div class="main">
+  <div class="center">
+    	<form action="/upload_db" enctype="multipart/form-data" method="post">
+    	<table align="center" style="width: 300px;" border="1">   
+    		<td><input name="db_file" type="file"></td></tr>
+    		<td></td>
+    		<td><input type="submit" value="提交数据库"></td></tr>
+    	</table>
+        </form> 
+        <form action="/update_code" enctype="multipart/form-data" method="post">
+    	<table align="center" border="1">   
+    		<td><input type="submit" value="更新代码"></td></tr>
+    	</table>
+        </form> 
+  </div>
+  </div>
+</body>
+</html>

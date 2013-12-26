@@ -1,0 +1,59 @@
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+body {
+    min-width 1024px;
+    margin: auto;
+    padding: 0;
+    background: url("/static/main_bg.gif"); 
+    font-size: 14px;
+}
+
+a {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+    opacity:.8;
+}
+
+div.main {
+    padding-top: 10px;  
+    padding-right: 0px;  
+    padding-bottom: 0.25in;  
+    padding-left: 0px; 
+}
+
+div.center {
+    padding-top: 150px;  
+}
+
+#copyright {
+    width: 240px;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+    color: gray;
+    font-size: 11px;
+}
+
+.blink { text-decoration: blink; }
+
+/*
+@-webkit-keyframes blink {  
+  from { opacity: 1.0; }
+  to { opacity: 0.2; }
+}
+
+.blink {
+  -webkit-animation-name: blink;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s; 
+}
+*/
